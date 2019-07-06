@@ -3,5 +3,5 @@ Tutorial para a criação de uma página html a partir de arquivos Markdown que 
 
 ## Instruções
 - Com Python(2.7, 3.4, 3.5, 3.6, 3.7) e pip instalados em seu sistema, execute
-```pip install mkdocs```
+```pip install mkdocs```.
 - Crie um repistório no github e clone em seu computador.
