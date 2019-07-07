@@ -1,5 +1,5 @@
 # Tutorial: Python Markdown para Página web
-Tutorial para a criação de uma página html a partir de arquivos Markdown que utilizam Python. Utilizaremos a ferramenta [MkDocs](https://www.mkdocs.org).
+Tutorial para a criação de uma página html a partir de arquivos Markdown que utilizam Python. Utilizaremos a ferramenta [MkDocs](https://www.mkdocs.org). Para configurações mais avançadas, acesse ao site.
 
 ## Instruções
 - Com Python(2.7, 3.4, 3.5, 3.6, 3.7) e pip instalados em seu sistema, execute
@@ -26,4 +26,23 @@ theme: readthedocs
 ```
 Essa sintaxe altera o tema do site para o estilo readthedocs. Nesse [link](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) você pode encontrar outros temas para serem instalados e utilizados.
 ### Construindo o site
-Para construir o seu site, dentro do repositório [nome do projeto] execute o comando ```mkdocs build```.
+- Para construir o seu site, dentro do repositório [nome do projeto] execute o comando ```mkdocs build```. Dentro da pasta [nome do projeto] será criado a pasta ```site```, são os arquivos dentro desta pasta que devem ser carregados no seu GitHub. 
+```
+repositório\
+  mkdos.yml
+  project\
+    docs\
+      index.md
+      info.md
+  site\
+    index.html
+    ...
+```
+Apague tudo do seu repositório (pasta [nome do projeto], README, etc), deixando apenas os arquivos que estavam dentro da pasta ```sites``` (retire eles de dentro da pasta).
+```
+repositório\
+  index.html
+  ...
+```
+Após ter carregado os arquivos, seu site estará hospedado em ```[nome do usuário].github.io\[nome do repositório]```.
+
