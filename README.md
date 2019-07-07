@@ -7,7 +7,15 @@ Tutorial para a criação de uma página html a partir de arquivos Markdown que 
 - Crie um repistório no Github e clone em seu computador.
 - Nas configurações do seu repositório, desça até o campo ```GitHub Pages```, em ```Source``` selecione ```master branch```. Sua página agora está hospedada em [nome do seu usuário].github.io/[nome do repositório].
 - No terminal, caminhe até dentro do seu repositório e use o comando ```mkdocs new [nome projeto]```. O MkDocs irá criar uma pasta com o nome [nome do projeto] com os arquivos da construção do site dentro dela. Caminhe para dentro dessa pasta.
+
 Dentro dessa pasta temos o arquivo ```mkdocs.yml```, este é um arquivo YAML que contém as configurações do seu site. Dentro dessa pasta também haverá outra pasta, ```docs```, contendo os arquivos Markdown para o site.
 - Para construir uma visualização do seu site, utilize o comando ```mkdocs serve```, o site estará hospedado em ```http://127.0.0.1:8000/```.
 ### Adicionando páginas
-- As páginas devem ser adicionadas como Markdown dentro do diretório ```[nome do projeto]\docs```.
+- As páginas devem ser adicionadas como Markdown dentro do diretório ```[nome do projeto]\docs```. Observação, a homepage do seu site deve ser nomeada com ```index.md```. Copie seus arquivos Markdown para dentro do repositório.
+- No arquivo ```mkdocs.yml``` você deve organizar os arquivos de acordo com qual página será. Você deve criar a linha ```nav:``` e abaixo dela a sintaxe é ```- [nome da página]: [nome do arquivo markdown]```. No seguinte exemplo, nosso site terá duas páginas, uma página Home criada a partir do arquivo index.md e uma página Info criada a partir do arquivo info.md.
+
+```
+nav:
+- Home: index.md
+- Info: info.md
+```
