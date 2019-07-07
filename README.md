@@ -25,3 +25,5 @@ nav:
 theme: readthedocs
 ```
 Essa sintaxe altera o tema do site para o estilo readthedocs. Nesse [link](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) você pode encontrar outros temas para serem instalados e utilizados.
+### Construindo o site
+Para construir o seu site, dentro do repositório [nome do projeto] execute o comando ```mkdocs build```.
