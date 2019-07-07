@@ -19,3 +19,9 @@ nav:
 - Home: index.md
 - Info: info.md
 ```
+### Alterando a aparência
+- É possível alterar a aparência do seu site utilizando temas já criados pelo MkDocs ou por usuários. Para alterar, dentro do arquivo ```mkdocs.yml``` escreva
+```
+theme: readthedocs
+```
+Essa sintaxe altera o tema do site para o estilo readthedocs. Nesse [link](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes) você pode encontrar outros temas para serem instalados e utilizados.
