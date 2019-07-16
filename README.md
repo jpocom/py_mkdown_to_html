@@ -46,3 +46,30 @@ repositório\
 ```
 Após ter carregado os arquivos, seu site estará hospedado em ```[nome do usuário].github.io\[nome do repositório]```.
 
+### Configuração extra: omitir código
+
+Para criar menus que podem exibir/esconder campos de códigos, você deve manualmente abrir o seu arquivo markdown (antes de ter construído o site) e nos blocos que você deseja omitir deve inserir as tags ```<summary>``` e ```<details>```, da seguinte forma:
+
+```
+<details>
+<summary>Code</summary>
+
+\```python
+print("hello world!")
+\```
+
+</details>
+```
+(Obs: a barra \ não deve estar presente no código).
+Observe como é apresentado o resultado:
+
+<details>
+<summary>Code</summary>
+
+```python
+print("hello world!")
+```
+
+</details>
+
+
