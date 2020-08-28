@@ -38,7 +38,7 @@ Essa sintaxe altera o tema do site para o estilo readthedocs. Nesse [link](https
 
 ### Construindo o site
 - Para construir e implantar seu site, você precisa executar `mkdocs gh-deploy`
-- Após ter carregado os arquivos, seu site estará hospedado em ```[nome do usuário].github.io\[nome do repositório]```.
+- Após ter carregado os arquivos, seu site estará hospedado em ```[nome do usuário].github.io\py_mkdown_to_html```.
 
 ### Configuração extra: omitir código
 
