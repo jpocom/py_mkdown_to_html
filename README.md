@@ -17,7 +17,7 @@ Dentro dessa pasta temos o arquivo `mkdocs.yml`, este é um arquivo YAML que con
 
 ```bash
 jupyter nbconvert --output-dir ./docs/ --to markdown notebooks/olives-eda.ipynb
-jupyter nbconvert --output-dir ./docs/ --to markdown notebooks/olives-mode.ipynb
+jupyter nbconvert --output-dir ./docs/ --to markdown notebooks/olives-model.ipynb
 ```
 - Páginas adicionais devem ser adicionadas como Markdown dentro do diretório `docs`. 
 - No arquivo ```mkdocs.yml``` você deve organizar os arquivos de acordo com qual página será. Você deve criar a linha ```nav:``` e abaixo dela a sintaxe é ```- [nome da página]: [nome do arquivo markdown]```. No seguinte exemplo, nosso site terá duas páginas, uma página Home criada a partir do arquivo index.md e uma página Info criada a partir do arquivo info.md.

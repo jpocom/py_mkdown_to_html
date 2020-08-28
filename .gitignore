@@ -2,3 +2,5 @@
 Icon?
 .ipynb_checkpoints
 site/*
+docs/*
+mkdocs.yml
